@@ -1,0 +1,36 @@
+#main {
+    top: 50px;
+    width: 800px;
+    height: max-content;
+    min-height: calc(100vh - 70px);
+    left: calc(50% - 423px);
+    position: relative;
+    background-color: black;
+    height: 100%;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+    color: white;
+    padding: 10px 20px;
+    font-family: Lemon;
+}
+#fond {
+    top: 50px;
+    width: 100%;
+    min-height: calc(100vh - 50px);
+    height: calc(100% - 50px);
+    position: fixed;
+    background-color: black;
+    z-index: -1;
+    
+    background-size: contain;
+    background-image: url("../images/fond.jpg");
+}
+body {
+    margin: 0px;
+}
+h2 {
+    margin-bottom: 0px;
+}
+ul {
+    margin: 0px;
+}
