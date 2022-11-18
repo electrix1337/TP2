@@ -1,6 +1,7 @@
 #main {
     top: 50px;
-    width: 800px;
+    min-width: 500px;
+    max-width: 1000px;
     height: max-content;
     min-height: calc(100vh - 70px);
     left: calc(50% - 423px);
